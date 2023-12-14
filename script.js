@@ -46,3 +46,43 @@ export function exercise04(args) {
   }
   return count + 1
 }
+
+export function exercise05(args) {
+  const input = args
+  const result = []
+
+  for (let i = 0; i < input.length; i++) {
+    const currentElement = input[i].charCodeAt()
+    if (currentElement >= 65 && currentElement <= 90) {
+      return true
+    }
+  }
+
+  return false
+}
+
+export function exercise06(args) {
+  const input = args.toUpperCase()
+  const result = []
+
+  for (let i = 0; i < input.length; i++) {
+    const currentElement = input[i].charCodeAt()
+    if (currentElement < 65 && currentElement > 90)
+      if (currentElement === " ") {
+        return true
+      }
+  }
+
+  return false
+}
+
+export function aufgabe(args) {
+  const input = args
+  const result = []
+
+  for (let i = 0; i < input.length; i++) {
+    const currentElement = input[i]
+    if (firstElement) )
+  }
+  
+  return result.join("")
